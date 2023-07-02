@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is my Age?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="age-calculator">
+      <div class="first-div">
+        <input class="js-date-input" type="date" />
+        <button
+          class="js-calculate-button"
+          onclick="
+              const birthDateStr = document.querySelector('.js-date-input').value; 
+              console.log(calculateAge(birthDateStr));            
+          "
+        >
+          Calculate Age
+        </button>
+      </div>
+      <div class="js-print">
+        <p class="js-print-age"></p>
+      </div>
+      <script src="script.js"></script>
+    </div>
+    
+  </body>
+</html>

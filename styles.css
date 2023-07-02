@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.age-calculator {
+  width: 800px; /* Increase the width as needed */
+  height: 300px; /* Keep the desired height */
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888;
+  background-color: #fff;
+}
+
+.first-div {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-date-input {
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 2px solid #3a76d8;
+  background-color: #ecf5fe;
+}
+
+.js-calculate-button {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1f4fa6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.js-print {
+  background-color: #ecf5fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.js-print-age {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f4fa6;
+  align-items: center;
+  margin-top: 10px; /* Add margin to create space below the button */
+}
